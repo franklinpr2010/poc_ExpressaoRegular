@@ -16,8 +16,8 @@ Ponto (.) = Um caractere qualquer
 [] - Conjunto de caracteres.  
 [^] - Conjunto negado de caracteres  
 ? - Opcional  
-* - Zero ou mais  
-+ - Mais, um ou mais.  
+'*' - Zero ou mais  
+'+' - Mais, um ou mais.  
 {n, m} - De n até m.  
 ^ - Inicío da linha.
 $ - Fim da linha.
