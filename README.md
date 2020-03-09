@@ -22,4 +22,9 @@ Ponto (.) = Um caractere qualquer
 ^ - Inicío da linha.
 $ - Fim da linha.
 \b - Inicio ou fim da palavra 
+\ - Uso de metacaracteres como literal.
+| - Operação de Ou
+(  ) - Define um grupo
+\1...\9 - Resgata grupos já definidos
+
 
