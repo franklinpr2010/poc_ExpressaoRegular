@@ -8,6 +8,9 @@ public class UsandoJava {
 
         while (matcher.find()) {
             System.out.printf("Posicoes: %s, %s\tValor: %s%n",
+            // start() -> 
+            // end() ->
+            // group() -> 
                 matcher.start(), matcher.end(), matcher.group());
         }
 
