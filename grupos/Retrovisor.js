@@ -9,12 +9,13 @@ const texto2 = 'Lentamente é mente muito lenta.'
 //'\2' está pegando o conteúdo do grupo 2 que é mente e após usando o '.*' para obter o restante do texto
 //E após aplicando conteúdo do primeiro grupo '\1' e depois o ponto literal '\.'
 console.log(texto2.match(/(lenta)(mente).*\2.*\1\./gi))
-
-//
+//'?:' é um grupo que não captura a informação, então o '*\1' vai capturar o (mente)
 console.log(texto2.match(/(?:lenta)(mente).*\1/gi)) 
-
+//vai pegar o lentamente
 console.log(texto2.match(/(lenta)(mente)/gi))
+//vai pegar o lentamente e o mente porque o 'mente' é opcional, então o mente vai pegar
 console.log(texto2.match(/(lenta)(mente)?/gi))
+//o que ele encontrar de lentamente ele vai substituir pela palavra mente
 console.log(texto2.replace(/(lenta)(mente)/gi, '$2'))
 
 const texto3 = 'abcdefghijkll'
