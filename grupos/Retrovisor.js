@@ -17,6 +17,6 @@ console.log(texto2.match(/(lenta)(mente)/gi))
 console.log(texto2.match(/(lenta)(mente)?/gi))
 //o que ele encontrar de lentamente ele vai substituir pela palavra mente
 console.log(texto2.replace(/(lenta)(mente)/gi, '$2'))
-
+//
 const texto3 = 'abcdefghijkll'
 console.log(texto3.match(/(a)(b)(c)(d)(e)(f)(g)(h)(i)(j)(k)(l)\12/g))
